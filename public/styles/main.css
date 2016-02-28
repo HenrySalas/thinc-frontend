@@ -5,6 +5,7 @@
 
 .thinc-div {
 	border: solid ;
+	border-width: 0.5px;
 	background-color: #DDD;
 }
 
@@ -23,7 +24,7 @@
 }
 
 .detail-wrapper > .detail {
-	width: 300px;
+	width: 398px;
 	height: 100px;
 }
 
