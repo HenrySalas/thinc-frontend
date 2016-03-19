@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #main-div {
 	background-color: #CCC;
@@ -35,3 +36,9 @@
 .detail-wrapper > .right-detail {
 	float: right;
 }
+=======
+#main-wrapper {
+  width: 5000px;
+  height: 400px;
+}
+>>>>>>> HzJavier/master
