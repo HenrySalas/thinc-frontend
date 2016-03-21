@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 #main-div {
 	background-color: #CCC;
 }
@@ -10,35 +8,7 @@
 	background-color: #DDD;
 }
 
-.main-wrapper {
-	width: 800px;
-	height: 200px;
-	margin: auto;
-	position: inline-block;
-}
-
-.detail-wrapper {
-	width: 800px;
-	height: 200px;
-	margin: auto;
-	position: inline;
-}
-
-.detail-wrapper > .detail {
-	width: 398px;
-	height: 100px;
-}
-
-.detail-wrapper > .left-detail {
-	float: left;
-}
-
-.detail-wrapper > .right-detail {
-	float: right;
-}
-=======
 #main-wrapper {
   width: 5000px;
   height: 400px;
 }
->>>>>>> HzJavier/master
