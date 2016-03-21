@@ -1,0 +1,15 @@
+<div class="book-detail-view-wrapper">
+	{{book.name}}
+</br>
+	<div class="ratin-stars">
+		<span class="rating-star" ng-class="{ 'selected': book.rating >= 1 }"></span>
+		<span class="rating-star" ng-class="{ 'selected': book.rating >= 2 }"></span>
+		<span class="rating-star" ng-class="{ 'selected': book.rating >= 3 }"></span>
+		<span class="rating-star" ng-class="{ 'selected': book.rating >= 4 }"></span>
+		<span class="rating-star" ng-class="{ 'selected': book.rating >= 5 }"></span>
+	</div>
+
+	<div ng-class="{ 'green': book.rating === 5 }" ng-click="showRating()">
+		Rating: {{ book.rating }}
+	</div>
+</div>
