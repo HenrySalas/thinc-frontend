@@ -8,5 +8,15 @@
       "name": "The Martian", 
       "author": "Andy Weir" 
     } 
-  ] 
+  ],
+  "snacks":  [
+    {
+      "name": "Brownie de Chocolate",
+      "brand": "Tia Olaf"
+    },
+    {
+      "name": "Hamburguesas",
+      "brand": "Tía Olaf"
+    }
+  ]
 }

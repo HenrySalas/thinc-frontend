@@ -1,0 +1,14 @@
+<div id="logo-bar"><p>Logo Bar</p></div>
+<div id="main-wrapper">
+	<div id="left-wrapper">
+		<input value="Searching" ng-model="snackQuery">
+		<ul>
+  			<li ng-repeat="snack in snacks | filter:snackQuery">
+  			Id: {{ snack.name }} - <b> {{ snack.brand }} </b>
+  			</li>
+		</ul>
+	</div>
+	<div id="right-wrapper">
+		<p>Hello</p>
+	</div>
+</div>

@@ -7,8 +7,25 @@ reviewApp.config(['$routeProvider',
   function ($routeProvider) {
     $routeProvider
     .when('/books', {
-        templateUrl: 'app/books/listView.html',
+        templateUrl: 'app/veggies/main.html',
         controller: 'BookListCtrl'
+    })
+    .otherwise({
+      redirectTo: '/books'
+    });
+  }
+]);
+
+var vegApp = angular.module('vegApp', [
+  'ngRoute'
+]);
+
+vegApp.config(['$routeProvider',
+  function ($routeProvider) {
+    $routeProvider
+    .when('/books', {
+        templateUrl: 'app/veggies/main.html',
+        controller: ''
     })
     .otherwise({
       redirectTo: '/books'
