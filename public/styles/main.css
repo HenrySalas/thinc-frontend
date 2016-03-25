@@ -1,29 +1,100 @@
 body {
 	background-color: #FBFFF5;
+	font-family: sans-serif;
 }
 
 #logo-bar {
 	background-color: #C2D2A5;
-	width: 800px;
-	height: 50px;
+	width: 70%;
+	min-width: 500px;
+	height: 100px;
 	margin: 0 auto 5px auto;
+	background-image: url("https://pixabay.com/static/uploads/photo/2015/07/02/12/41/avocado-829092_960_720.jpg");
+}
+
+#logo-bar p {
+	font-size: 4.5em;
+	color: white;
+	margin: 0;
+}
+
+#logo-bar ul {
+	margin: auto;
+	color: white;
+	margin: 0;
+}
+
+#logo-bar li {
+	display: inline-block;
+	font-size: 0.9em;
 }
 
 #main-wrapper {
 	background-color: #FBFFF5;
-	width: 800px;
+	width: 70%;
+	min-width: 500px;
 	margin: auto;
-}
-
-#right-wrapper {
-	background-color: #C2D2A5;
-	width: 598px;
-	float: right;
 }
 
 #left-wrapper {
 	background-color: #C2D2A5;
-	width: 193px;
+	width: 33%;
+	min-width: 100px;
+	min-height: 400px;
 	float: left;
-	padding: 5px 0 5px 5px;
+	padding: 3px;
+	margin: auto;
+	color: #4B610B;
+}
+
+#left-wrapper p {
+	color: #4B610B;
+}
+
+#left-wrapper input {
+	margin: 5px;
+}
+
+#left-wrapper ul {
+	display: inline;
+	list-style: outside;
+	list-style-type: none;
+	margin: 5px;
+	font-size: 0.7em;
+}
+
+#right-wrapper {
+	background-color: #C2D2A5;
+	width: 64%;
+	min-width: 300px;
+	min-height: 400px;
+	float: right;
+	padding: 3px;
+	margin: auto;
+}
+
+#right-wrapper h1 {
+	font-style: bold;
+	font-size: 1em;
+	color: #4B610B;
+	margin: auto;
+}
+
+#right-wrapper p {
+	color: #4B610B;
+	margin: auto;
+}
+
+#footer {
+	width: 100%;
+	min-width: 500px;
+	height: 50px;
+	margin-top: 5px;
+	background-color: #C2D2A5;
+	text-align: center;
+	float: left;
+}
+
+#footer p {
+	color: #4B610B;
 }

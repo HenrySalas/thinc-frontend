@@ -1,5 +1,5 @@
 var bookControllers = angular.module('bookControllers', []);
-var snackControllers = angular.module('snackControllers' []);
+var snackControllers = angular.module('snackControllers', []);
 
 bookControllers.controller('BookListCtrl', ['$scope', '$http', function ($scope, $http) {
   
@@ -14,7 +14,7 @@ bookControllers.controller('BookListCtrl', ['$scope', '$http', function ($scope,
 
 snackControllers.controller('SnackListCtrl', ['$scope', '$http', function ($scope, $http){
 	
-	$http.get('api/items')
+	$http.get('data/items.json')
 	.success(function (data) {
 		$scope.snacks = data;
 	});

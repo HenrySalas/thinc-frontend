@@ -1,14 +1,18 @@
-<div id="logo-bar"><p>Logo Bar</p></div>
+<div id="logo-bar">
+	<p>Vegan Snacks</p>
+</div>
 <div id="main-wrapper">
 	<div id="left-wrapper">
-		<input value="Searching" ng-model="snackQuery">
+		<input ng-model="snackQuery">
 		<ul>
   			<li ng-repeat="snack in snacks | filter:snackQuery">
-  			Id: {{ snack.name }} - <b> {{ snack.brand }} </b>
+  			{{ snack.name }} - <b> {{ snack.brand }} </b>
   			</li>
 		</ul>
 	</div>
 	<div id="right-wrapper">
-		<p>Hello</p>
+		<h1>Hello</h1>
+		<p>jsfsdfsdfsdfsdfsdfsdfsdfsdf</p>
 	</div>
+	<div id="footer"><p>Derechos Reservados 2016</p></div>
 </div>

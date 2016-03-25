@@ -17,7 +17,8 @@ reviewApp.config(['$routeProvider',
 ]);
 
 var vegApp = angular.module('vegApp', [
-  'ngRoute'
+  'ngRoute',
+  'snackControllers'
 ]);
 
 vegApp.config(['$routeProvider',
@@ -25,7 +26,7 @@ vegApp.config(['$routeProvider',
     $routeProvider
     .when('/books', {
         templateUrl: 'app/veggies/main.html',
-        controller: ''
+        controller: 'SnackListCtrl'
     })
     .otherwise({
       redirectTo: '/books'
