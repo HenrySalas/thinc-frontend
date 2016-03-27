@@ -69,20 +69,29 @@ body {
 	min-width: 300px;
 	min-height: 400px;
 	float: right;
-	padding: 3px;
+	padding: 5px;
 	margin: auto;
+	color: #4B610B;
 }
 
 #right-wrapper h1 {
 	font-style: bold;
 	font-size: 1em;
-	color: #4B610B;
 	margin: auto;
 }
 
 #right-wrapper p {
-	color: #4B610B;
 	margin: auto;
+}
+
+#right-wrapper ul {
+	display: inline;
+	list-style: inside;
+	font-size: 1em;
+}
+
+#right-wrapper li {
+	display: inline;
 }
 
 #footer {

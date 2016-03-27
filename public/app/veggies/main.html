@@ -11,8 +11,11 @@
 		</ul>
 	</div>
 	<div id="right-wrapper">
-		<h1>Hello</h1>
-		<p>jsfsdfsdfsdfsdfsdfsdfsdfsdf</p>
+		<ul>
+			<li ng-repeat="snack in snacks">
+				{{ snack.name }} - {{ snack.brand }}
+			</li>
+		</ul>
 	</div>
 	<div id="footer"><p>Derechos Reservados 2016</p></div>
 </div>

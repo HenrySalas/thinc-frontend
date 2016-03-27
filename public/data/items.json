@@ -1,10 +1,57 @@
 [
     {
+      "id":"0000",
       "name": "Brownie",
       "brand": "Tia Olaf"
     },
     {
+      "id":"0001",
       "name": "Hamburguesas",
       "brand": "Tía Olaf"
+    },
+    {
+      "id":"0002",
+      "name": "Galletas con chispas de chocolate",
+      "brand": "Tia Olaf"
+    },
+    {
+      "id":"0004",
+      "name": "Leche de nuez",
+      "brand": "Tia Olaf"
+    },
+    {
+      "id":"0005",
+      "name": "Bolsa de 1kg de soya",
+      "brand": "Tia Olaf"
+    },
+    {
+      "id":"0006",
+      "name": "Tortilla de maíz integral (12 pzas)",
+      "brand": "Tia Olaf"
+    },
+    {
+      "id":"0007",
+      "name": "Tortilla de maíz integral (10 pzas)",
+      "brand": "Tia Olaf"
+    },
+    {
+      "id":"0008",
+      "name": "Tortilla de maíz integral (30 pzas)",
+      "brand": "Tia Olaf"
+    },
+    {
+      "id":"0009",
+      "name": "Queso (250g)",
+      "brand": "Tia Olaf"
+    },
+    {
+      "id":"0010",
+      "name": "Queso (1/2kg)",
+      "brand": "Tia Olaf"
+    },
+    {
+      "id":"0011",
+      "name": "Queso (1kg)",
+      "brand": "Tia Olaf"
     }
   ]
