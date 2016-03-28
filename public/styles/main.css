@@ -94,6 +94,13 @@ body {
 	display: inline;
 }
 
+#detail-wrapper {
+	background-color: #FBFFF5;
+	width: 70%;
+	min-width: 500px;
+	margin: auto;
+}
+
 #footer {
 	width: 100%;
 	min-width: 500px;
