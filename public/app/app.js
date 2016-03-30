@@ -1,21 +1,3 @@
-var reviewApp = angular.module('reviewApp', [
-  'ngRoute',
-  'bookControllers'
-]);
-
-reviewApp.config(['$routeProvider',
-  function ($routeProvider) {
-    $routeProvider
-    .when('/books', {
-        templateUrl: 'app/veggies/main.html',
-        controller: 'BookListCtrl'
-    })
-    .otherwise({
-      redirectTo: '/books'
-    });
-  }
-]);
-
 var vegApp = angular.module('vegApp', [
   'ngRoute',
   'snackControllers'
@@ -24,12 +6,16 @@ var vegApp = angular.module('vegApp', [
 vegApp.config(['$routeProvider',
   function ($routeProvider) {
     $routeProvider
-    .when('/books', {
+    .when('/snacks', {
         templateUrl: 'app/veggies/main.html',
         controller: 'SnackListCtrl'
     })
+    .when('/snacks/:id', {
+        templateUrl: 'app/veggies/detailView.html',
+        controller: 'SnackDetailCtrl'
+    })
     .otherwise({
-      redirectTo: '/books'
+      redirectTo: '/snacks'
     });
   }
 ]);
