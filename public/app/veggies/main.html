@@ -12,8 +12,9 @@
 	</div>
 	<div id="right-wrapper">
 		<ul>
-			<li ng-repeat="snack in snacks">
-				{{ snack.name }} - {{ snack.brand }} <i class="fa fa-star"></i>
+			<li ng-repeat="snack in snacks | limitTo: 5">
+				<img srcset="{{snack.img}} 4x"> <br/>
+				{{ snack.name | limitTo: 8 }} <br/> <strong>{{ snack.brand }}</strong>
 			</li>
 		</ul>
 	</div>

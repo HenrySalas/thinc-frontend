@@ -87,11 +87,13 @@ body {
 #right-wrapper ul {
 	display: inline;
 	list-style: inside;
-	font-size: 1em;
+	font-size: 0.7em;
 }
 
 #right-wrapper li {
-	display: inline;
+	display: inline-block;
+	margin-right: 5px;
+	text-align: center;
 }
 
 #detailView-wrapper {

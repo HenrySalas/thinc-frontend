@@ -15,7 +15,7 @@ snackControllers.controller('SnackDetailCtrl', ['$scope', '$http', '$routeParams
    $http.get('data/items.json')
    .success(function (data) {
      $scope.snack = {};
-     var snackIndex = _.findIndex(data, { id: bookId });
+     var snackIndex = _.findIndex(data, { id: snackId });
  
      if (snackIndex >= 0){
        $scope.snack = data[snackIndex];

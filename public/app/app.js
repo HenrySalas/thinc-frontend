@@ -11,7 +11,7 @@ vegApp.config(['$routeProvider',
         controller: 'SnackListCtrl'
     })
     .when('/snacks/:id', {
-        templateUrl: 'app/veggies/detailView.html',
+        templateUrl: 'app/veggies/detail.html',
         controller: 'SnackDetailCtrl'
     })
     .otherwise({
