@@ -1,6 +1,7 @@
 var vegApp = angular.module('vegApp', [
   'ngRoute',
-  'snackControllers'
+  'snackControllers',
+  'authControllers'
 ]);
 
 vegApp.config(['$routeProvider',
@@ -13,6 +14,14 @@ vegApp.config(['$routeProvider',
     .when('/snacks/:id', {
         templateUrl: 'app/veggies/detail.html',
         controller: 'SnackDetailCtrl'
+    })
+    .when('/user', {
+        templateUrl: 'app/veggies/user.html',
+        controller: 'SnackUser'
+    })
+    .when('/login', {
+        templateUrl: 'app/login/loginView.html',
+        controller: 'LoginCtrl'
     })
     .otherwise({
       redirectTo: '/snacks'

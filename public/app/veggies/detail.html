@@ -1,6 +1,11 @@
-<div class="detailView-wrapper">
+<div id="logo-bar">
+  <a href="#snacks">
+    <p>Vegan Snacks</p>
+  </a>
+</div>
+<div id="detailView-wrapper">
   <span>
-    <img srcset="{{snack.img}} 3x">
+    <img srcset="{{snack.img}} 2x">
   </span>
   <br/>
 	{{ snack.name }}
@@ -16,5 +21,4 @@
    <div ng-class="{ 'green': snack.rating === 5 }" ng-click="showRating()">
    	Rating: {{ snack.rating }} 
    </div>
-
 </div>

@@ -5,8 +5,7 @@ body {
 
 #logo-bar {
 	background-color: #C2D2A5;
-	width: 70%;
-	min-width: 500px;
+	max-width: 900px;
 	height: 100px;
 	margin: 0 auto 5px auto;
 	background-image: url("https://pixabay.com/static/uploads/photo/2015/07/02/12/41/avocado-829092_960_720.jpg");
@@ -29,21 +28,28 @@ body {
 	font-size: 0.9em;
 }
 
+#logo-bar a {
+	color: #4B610B;
+	text-decoration: none;
+}
+
 #main-wrapper {
 	background-color: #FBFFF5;
-	width: 70%;
-	min-width: 500px;
+	max-width: 900px;
+	min-height: 400px;
 	margin: auto;
+}
+
+#main-wrapper a {
+	color: #4B610B;
 }
 
 #left-wrapper {
 	background-color: #C2D2A5;
-	width: 33%;
-	min-width: 100px;
+	width: 30%;
 	min-height: 400px;
 	float: left;
-	padding: 3px;
-	margin: auto;
+	padding: 5px;
 	color: #4B610B;
 }
 
@@ -51,26 +57,24 @@ body {
 	color: #4B610B;
 }
 
-#left-wrapper input {
-	margin: 5px;
-}
-
 #left-wrapper ul {
 	display: inline;
 	list-style: outside;
 	list-style-type: none;
-	margin: 5px;
 	font-size: 0.7em;
+}
+
+#left-wrapper li {
+	display: list-item;
+	list-style-type: none;
 }
 
 #right-wrapper {
 	background-color: #C2D2A5;
-	width: 64%;
-	min-width: 300px;
+	width: 65%;
 	min-height: 400px;
 	float: right;
 	padding: 5px;
-	margin: auto;
 	color: #4B610B;
 }
 
@@ -85,36 +89,47 @@ body {
 }
 
 #right-wrapper ul {
-	display: inline;
-	list-style: inside;
+	display: inline-block;
+	list-style: outside;
+	list-style-type: none;
 	font-size: 0.7em;
 }
 
 #right-wrapper li {
 	display: inline-block;
-	margin-right: 5px;
 	text-align: center;
 }
 
 #detailView-wrapper {
 	background-color: #FBFFF5;
 	width: 70%;
-	min-width: 500px;
+	min-width: 300px;
 	margin: auto;
+	text-align: center;
+}
+
+#detailView-wrapper p {
+	text-align: justify;
+}
+
+#login-wrapper {
+	background-color: #FBFFF5;
+	width: 70%;
+	min-width: 300px;
+	margin: auto;
+	text-align: center;
 }
 
 #footer {
-	width: 100%;
-	min-width: 500px;
-	height: 50px;
-	margin-top: 5px;
+	max-width: 900px;
+	height: 20px;
 	background-color: #C2D2A5;
-	text-align: center;
-	float: left;
+	margin: auto;
 }
 
 #footer p {
 	color: #4B610B;
+	text-align: center;
 }
 
 
